@@ -13,8 +13,3 @@ class CreateBooks < ActiveRecord::Migration
 end
 
 
-class AddUserIDToBooks < ActiveRecord::Migration
-  def change
-    add_column  :books, :user_id, :integer
-  end
-end
