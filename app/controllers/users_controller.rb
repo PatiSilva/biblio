@@ -4,6 +4,7 @@ class UsersController < ApplicationController
   # GET /books.json
   def mybooks
     @mybooks = current_user.books
+    @api = ENV['GOODREADS_KEY']
 
     respond_to do |format|
       format.html # index.html.erb
