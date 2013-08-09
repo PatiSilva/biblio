@@ -8,10 +8,6 @@ body {
   line-height: 18px;
 }
 
-.login{
-  text-align: center;
-}
-  
 
 
 p, ol, ul, td {
@@ -35,6 +31,7 @@ a {
     color: #fff;
     background-color: #000;
   }
+
 }
 
 div {
@@ -51,6 +48,49 @@ div {
   padding: 2px;
   background-color: red;
   display: table;
+}
+
+.login{
+  background-color: #e5d8ba;
+  width: 300px;
+  left: 500px;
+  position: fixed;
+  text-align:center;
+  border-radius: 15px;
+  margin-top: 75px;
+  padding: 15px;
+  font-family: 'domine', times, serif;
+}
+
+.loginbar{
+  background-color: #5a3e1f;
+  height: 35px;
+  margin-top: -8px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-top: 8px; 
+  }
+
+
+a.loginbar{
+  color: #e5d8ba;
+  text-decoration:none;
+
+}
+a.loginbar:visited{
+  color: #e5d8ba;
+}
+
+.books{
+  background-color: #e5d8ba;
+  width: 90%;
+  left: 50px;
+  position: fixed;
+  margin-top: 75px;
+  padding: 15px;
+  font-family: 'domine', times, serif;
 }
 
 #error_explanation {
